@@ -29,21 +29,44 @@ def txt_file_to_dict(filename):
     txt_fo.close()
     return data
 
-def txtDict_to_eagleDict(txtDict, filePath, eagleFolderId):
+def txtDict_to_eagleDict(txtDict, filePath, eagleFolderId, maxFile=0):
     data = txtDict
     pageUrl = data.get('illust.pageUrl') if data.get('illust.pageUrl') is not None else data.get('path.mangaIndexPage')
     tags = {k: v for k, v in data.items() if any(x in k for x in ['illust.tags'])}.values()
 
     # TODO: filePath拿到的是描述txt檔，仍需要透過txtDict拿到的path.ext改寫副檔名，才會拿到圖片本體
+    pathExt = data.get("path.ext")
 
-    data = {
-        "path": filePath,
-        "name": data.get("illust.title"),
-        "annotation": data.get("illust.comment"),
-        "website": pageUrl,
-        "tags": list(tags),
+    folderData = {
         "folderId": eagleFolderId
     }
+
+    maxFile = int(maxFile)
+    if maxFile > 0:
+        basePath = filePath.rsplit('/', 1)[0]
+        items = []
+        for itemNum in range(1,maxFile+1):
+            items.append({
+                "path": (basePath+"/"+"%02d" % (itemNum))+pathExt,
+                "name": data.get("illust.title"),
+                "annotation": data.get("illust.comment"),
+                "website": pageUrl,
+                "tags": list(tags),
+            })
+            pass
+        data = {"items": items} | folderData
+        pass
+    else:
+        singleItemData = {
+            "path": filePath,
+            "name": data.get("illust.title"),
+            "annotation": data.get("illust.comment"),
+            "website": pageUrl,
+            "tags": list(tags),
+        }
+        data = singleItemData | folderData
+        pass
+
     return data
 
 if __name__ == "__main__":
@@ -52,12 +75,14 @@ if __name__ == "__main__":
 
     try:
         filePath = sys.argv[1]
+        eagleFolderId = sys.argv[2]
+        maxFile = sys.argv[3]
         #print(sys.argv[1])
     except IndexError as e:
         filePath = "sample/つのじゅ - ___ (27116379).txt"
 
     txtDict = txt_file_to_dict(filePath)
     #print(txtDict)
-    reqData = txtDict_to_eagleDict(txtDict, filePath, '0x00000')
+    reqData = txtDict_to_eagleDict(txtDict, filePath, '0x00000', maxFile)
     print(reqData)
 
