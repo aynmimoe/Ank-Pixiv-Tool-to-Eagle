@@ -27,18 +27,35 @@ def txt_file_to_dict(filename):
 
     # 关闭文件
     txt_fo.close()
+    return data
 
+def txtDict_to_eagleDict(txtDict, filePath, eagleFolderId):
+    data = txtDict
+    pageUrl = data.get('illust.pageUrl') if data.get('illust.pageUrl') is not None else data.get('path.mangaIndexPage')
+    tags = {k: v for k, v in data.items() if any(x in k for x in ['illust.tags'])}.values()
 
-    print(data)
+    data = {
+        "path": filePath,
+        "name": data.get("illust.title"),
+        "annotation": data.get("illust.comment"),
+        "website": pageUrl,
+        "tags": list(tags),
+        "folderId": eagleFolderId
+    }
+    return data
 
 if __name__ == "__main__":
     import sys
     #fib(int(sys.argv[1]))
 
     try:
-        filename = sys.argv[1]
-        txt_file_to_dict(filename)
+        filePath = sys.argv[1]
         #print(sys.argv[1])
     except IndexError as e:
-        txt_file_to_dict("sample/つのじゅ - ___ (27116379).txt")
+        filePath = "sample/つのじゅ - ___ (27116379).txt"
+
+    txtDict = txt_file_to_dict(filePath)
+    #print(txtDict)
+    reqData = txtDict_to_eagleDict(txtDict, filePath, '0x00000')
+    print(reqData)
 

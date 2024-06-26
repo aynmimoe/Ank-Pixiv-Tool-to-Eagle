@@ -1,0 +1,98 @@
+illust.id
+	25865657
+illust.dateTime.year
+	2012
+illust.dateTime.month
+	03
+illust.dateTime.day
+	17
+illust.dateTime.hour
+	17
+illust.dateTime.minute
+	11
+illust.size.width
+	2480
+illust.size.height
+	3507
+illust.tags.0
+	うつくしんく
+illust.tags.1
+	ふつくしい
+illust.tags.2
+	クリック推奨
+illust.tags.3
+	ローゼン1000users入り
+illust.tags.4
+	ローゼンメイデン
+illust.tags.5
+	真紅
+illust.tags.6
+	薔薇乙女
+illust.shortTags.0
+	うつくしんく
+illust.shortTags.1
+	ふつくしい
+illust.shortTags.2
+	クリック推奨
+illust.shortTags.3
+	ローゼンメイデン
+illust.shortTags.4
+	真紅
+illust.shortTags.5
+	薔薇乙女
+illust.tools
+	PhotoshopSAI
+illust.width
+	2480
+illust.height
+	3507
+illust.server
+	i1
+illust.title
+	真紅
+illust.comment
+	T A T
+illust.worksData.dateTime.year
+	2012
+illust.worksData.dateTime.month
+	03
+illust.worksData.dateTime.day
+	17
+illust.worksData.dateTime.hour
+	17
+illust.worksData.dateTime.minute
+	11
+illust.worksData.size.width
+	2480
+illust.worksData.size.height
+	3507
+illust.worksData.tools
+	PhotoshopSAI
+illust.year
+	2012
+illust.month
+	03
+illust.day
+	17
+illust.hour
+	17
+illust.minute
+	11
+member.id
+	467511
+member.pixivId
+	hawkly2
+member.name
+	NorthAbyssor
+member.memoizedName
+	NorthAbyssor
+path.ext
+	.png
+path.mangaIndexPage
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=25865657
+path.largeImage
+	http://i1.pixiv.net/img23/img/hawkly2/25865657.png
+path.largeStandardImage
+	http://i1.pixiv.net/img23/img/hawkly2/25865657.png
+path.mediumImage
+	http://i1.pixiv.net/img23/img/hawkly2/25865657_m.png

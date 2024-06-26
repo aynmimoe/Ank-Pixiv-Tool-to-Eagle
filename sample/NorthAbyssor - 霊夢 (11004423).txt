@@ -1,0 +1,106 @@
+illust.id
+	11004423
+illust.dateTime.year
+	2010
+illust.dateTime.month
+	06
+illust.dateTime.day
+	01
+illust.dateTime.hour
+	14
+illust.dateTime.minute
+	16
+illust.size.width
+	905
+illust.size.height
+	1280
+illust.tags.0
+	スペルカード
+illust.tags.1
+	博麗霊夢
+illust.tags.2
+	必殺技
+illust.tags.3
+	東方
+illust.tags.4
+	東方Project250users入り
+illust.tags.5
+	楽園の素敵な巫女
+illust.tags.6
+	紅白
+illust.tags.7
+	霊夢
+illust.tags.8
+	黒タイツ
+illust.shortTags.0
+	スペルカード
+illust.shortTags.1
+	博麗霊夢
+illust.shortTags.2
+	必殺技
+illust.shortTags.3
+	東方
+illust.shortTags.4
+	楽園の素敵な巫女
+illust.shortTags.5
+	紅白
+illust.shortTags.6
+	霊夢
+illust.shortTags.7
+	黒タイツ
+illust.tools
+	PhotoshopSAI
+illust.width
+	905
+illust.height
+	1280
+illust.server
+	i1
+illust.title
+	霊夢
+illust.comment
+	日常练习... 10.6.1 DR-130 Thanks a lot~
+illust.worksData.dateTime.year
+	2010
+illust.worksData.dateTime.month
+	06
+illust.worksData.dateTime.day
+	01
+illust.worksData.dateTime.hour
+	14
+illust.worksData.dateTime.minute
+	16
+illust.worksData.size.width
+	905
+illust.worksData.size.height
+	1280
+illust.worksData.tools
+	PhotoshopSAI
+illust.year
+	2010
+illust.month
+	06
+illust.day
+	01
+illust.hour
+	14
+illust.minute
+	16
+member.id
+	467511
+member.pixivId
+	hawkly2
+member.name
+	NorthAbyssor
+member.memoizedName
+	NorthAbyssor
+path.ext
+	.jpg
+path.mangaIndexPage
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=11004423
+path.largeImage
+	http://i1.pixiv.net/img23/img/hawkly2/11004423.jpg
+path.largeStandardImage
+	http://i1.pixiv.net/img23/img/hawkly2/11004423.jpg
+path.mediumImage
+	http://i1.pixiv.net/img23/img/hawkly2/11004423_m.jpg
