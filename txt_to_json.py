@@ -34,6 +34,8 @@ def txtDict_to_eagleDict(txtDict, filePath, eagleFolderId):
     pageUrl = data.get('illust.pageUrl') if data.get('illust.pageUrl') is not None else data.get('path.mangaIndexPage')
     tags = {k: v for k, v in data.items() if any(x in k for x in ['illust.tags'])}.values()
 
+    # TODO: filePath拿到的是描述txt檔，仍需要透過txtDict拿到的path.ext改寫副檔名，才會拿到圖片本體
+
     data = {
         "path": filePath,
         "name": data.get("illust.title"),
