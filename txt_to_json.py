@@ -1,5 +1,5 @@
 
-def txt_file_to_json(filename):
+def txt_file_to_dict(filename):
     txt_fo = open(filename, "r")
 
     #for line in txt_fo.readlines():
@@ -37,8 +37,8 @@ if __name__ == "__main__":
 
     try:
         filename = sys.argv[1]
-        txt_file_to_json(filename)
+        txt_file_to_dict(filename)
         #print(sys.argv[1])
     except IndexError as e:
-        txt_file_to_json("sample/つのじゅ - ___ (27116379).txt")
+        txt_file_to_dict("sample/つのじゅ - ___ (27116379).txt")
 
