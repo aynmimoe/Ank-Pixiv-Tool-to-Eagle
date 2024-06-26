@@ -12,15 +12,24 @@ def txt_file_to_json(filename):
 
     #print "读取的数据为: %s" % (line)
 
+    data = {}
+
     while True:
         line1 = txt_fo.readline()
         line2 = txt_fo.readline()
         if not line2: break  # EOF
+        #print('line1: '+line1+'line2: '+line2)
 
-        print('line1: '+line1+'line2: '+line2)
+        key = line1.strip()
+        value = line2.strip()
+
+        data[key] = value
 
     # 关闭文件
     txt_fo.close()
+
+
+    print(data)
 
 if __name__ == "__main__":
     import sys
