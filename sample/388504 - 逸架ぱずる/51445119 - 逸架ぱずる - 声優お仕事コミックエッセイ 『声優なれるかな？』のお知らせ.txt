@@ -1,0 +1,59 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=51445119
+illust.id
+	51445119
+illust.dateTime.year
+	2015
+illust.dateTime.month
+	07
+illust.dateTime.day
+	16
+illust.dateTime.hour
+	20
+illust.dateTime.minute
+	13
+illust.updated
+	201507162013
+illust.size.width
+	800
+illust.size.height
+	1112
+illust.tags.0
+	オリジナル
+illust.tags.1
+	声優
+illust.shortTags.0
+	オリジナル
+illust.shortTags.1
+	声優
+illust.tools
+	Photoshopつけペン
+illust.width
+	800
+illust.height
+	1112
+illust.server
+	i4
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=big&illust_id=51445119
+illust.title
+	声優お仕事コミックエッセイ 『声優なれるかな？』のお知らせ
+illust.comment
+	声優お仕事コミックエッセイ 『声優なれるかな？』という単行本が7/17に出ます！
+	（KADOKAWA/メディアファクトリー  逸架ぱずる・桑原由気 ）
+	声優として活躍されている、桑原由気さんに取材をさせていただき、 ストーリー漫画にして描かせていただきました。
+	「声優になるためにこんな勉強をするんだー」っていうのがわかるかもしれない？１冊となっています。
+	お知らせ用に、漫画の絵の一部を並べてみました。どうぞよろしくお願いいたします！！
+	http://www.amazon.co.jp/dp/4040677331/ref=cm_sw_r_tw_dp_ti5Pvb0H0BR01
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i4.pixiv.net/img-original/img/2015/07/16/20/13/59/51445119_p0.jpg
+path.image.referer
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=51445119

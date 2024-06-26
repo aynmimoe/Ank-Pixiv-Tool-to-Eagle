@@ -1,0 +1,84 @@
+illust.id
+	27116379
+illust.dateTime.year
+	2012
+illust.dateTime.month
+	05
+illust.dateTime.day
+	08
+illust.dateTime.hour
+	16
+illust.dateTime.minute
+	35
+illust.size.width
+	1200
+illust.size.height
+	1620
+illust.tags.0
+	オリジナル
+illust.tags.1
+	女の子
+illust.tags.2
+	落書き
+illust.shortTags.0
+	オリジナル
+illust.shortTags.1
+	女の子
+illust.shortTags.2
+	落書き
+illust.tools
+	SAI
+illust.width
+	1200
+illust.height
+	1620
+illust.server
+	i2
+illust.title
+	***
+illust.comment
+	らくがき。片方三つ編みが描きたくて→よしキョンシーっぽいもの描こう！ついでに角も！でこうなった。ベーグルの子と似た雰囲気にしたかった(>///<)
+illust.worksData.dateTime.year
+	2012
+illust.worksData.dateTime.month
+	05
+illust.worksData.dateTime.day
+	08
+illust.worksData.dateTime.hour
+	16
+illust.worksData.dateTime.minute
+	35
+illust.worksData.size.width
+	1200
+illust.worksData.size.height
+	1620
+illust.worksData.tools
+	SAI
+illust.year
+	2012
+illust.month
+	05
+illust.day
+	08
+illust.hour
+	16
+illust.minute
+	35
+member.id
+	2993051
+member.pixivId
+	tunoju
+member.name
+	つのじゅ
+member.memoizedName
+	つのじゅ
+path.ext
+	.jpg
+path.mangaIndexPage
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=27116379
+path.largeImage
+	http://i2.pixiv.net/img74/img/tunoju/27116379.jpg
+path.largeStandardImage
+	http://i2.pixiv.net/img74/img/tunoju/27116379.jpg
+path.mediumImage
+	http://i2.pixiv.net/img74/img/tunoju/27116379_m.jpg

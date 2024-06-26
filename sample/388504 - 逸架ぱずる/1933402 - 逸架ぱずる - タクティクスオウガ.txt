@@ -1,0 +1,61 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=1933402
+illust.id
+	1933402
+illust.dateTime.year
+	2008
+illust.dateTime.month
+	10
+illust.dateTime.day
+	22
+illust.dateTime.hour
+	23
+illust.dateTime.minute
+	34
+illust.updated
+	200810222334
+illust.size.width
+	2145
+illust.size.height
+	3248
+illust.tags.0
+	カボチャ
+illust.tags.1
+	タクティクスオウガ
+illust.tags.2
+	かぼちゃ
+illust.tags.3
+	うぃっち
+illust.shortTags.0
+	カボチャ
+illust.shortTags.1
+	かぼちゃ
+illust.shortTags.2
+	うぃっち
+illust.tools
+	Photoshop鉛筆
+illust.width
+	2145
+illust.height
+	3248
+illust.server
+	i3
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=big&illust_id=1933402
+illust.title
+	タクティクスオウガ
+illust.comment
+	ものすっごい昔の絵です。2004年だって！
+	ハロウィンハロウィンカボチャカボチャ…って考えてたらこの絵を思い出したのでアップしてみました。　/　後で気づいたんですが、300dpiのjpgというわけのわからんサイズでアップしてしまいました！　でかくてゴメンなさい！（´Д｀；）
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i3.pixiv.net/img-original/img/2008/10/22/23/34/18/1933402_p0.jpg
+path.image.referer
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=1933402

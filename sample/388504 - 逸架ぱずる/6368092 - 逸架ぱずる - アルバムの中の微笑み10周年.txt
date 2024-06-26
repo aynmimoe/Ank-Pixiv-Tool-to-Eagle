@@ -1,0 +1,62 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=6368092
+illust.id
+	6368092
+illust.dateTime.year
+	2009
+illust.dateTime.month
+	09
+illust.dateTime.day
+	27
+illust.dateTime.hour
+	14
+illust.dateTime.minute
+	59
+illust.updated
+	200909271459
+illust.size.width
+	604
+illust.size.height
+	680
+illust.tags.0
+	大正
+illust.tags.1
+	袴
+illust.tags.2
+	メイド
+illust.tags.3
+	エロゲー
+illust.shortTags.0
+	大正
+illust.shortTags.1
+	袴
+illust.shortTags.2
+	メイド
+illust.shortTags.3
+	エロゲー
+illust.tools
+	Photoshop色鉛筆ミリペン
+illust.width
+	604
+illust.height
+	680
+illust.server
+	i1
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=big&illust_id=6368092
+illust.title
+	アルバムの中の微笑み10周年
+illust.comment
+	pixivっにこういうラフっぽいのupするのって申し訳ないのですが…（´Д｀；）　10周年記念に描いてみましたー。その昔「アルバムの中の微笑」というエロゲーの原画をさせていただきました(＾ω＾)
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i1.pixiv.net/img-original/img/2009/09/27/14/59/05/6368092_p0.jpg
+path.image.referer
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=6368092

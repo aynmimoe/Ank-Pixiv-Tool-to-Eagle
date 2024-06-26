@@ -1,0 +1,52 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=51517278
+illust.id
+	51517278
+illust.dateTime.year
+	2015
+illust.dateTime.month
+	07
+illust.dateTime.day
+	20
+illust.dateTime.hour
+	18
+illust.dateTime.minute
+	46
+illust.updated
+	201507201846
+illust.tags.0
+	声優
+illust.tags.1
+	オリジナル
+illust.shortTags.0
+	声優
+illust.shortTags.1
+	オリジナル
+illust.tools
+	Photoshop鉛筆
+illust.server
+	i3
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=manga_big&page=0&illust_id=51517278
+illust.title
+	『声優なれるかな？』ラフいろいろ
+illust.comment
+	『声優なれるかな？』のラフいろいろです。
+	ブログに単行本の情報などまとめましたのでよかったら見てみてくださいー（　＾ω＾）
+	http://itsuka.puzzle.pupu.jp/?eid=484
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i3.pixiv.net/img-original/img/2015/07/20/18/46/59/51517278_p0.jpg
+path.image.images.1
+	http://i3.pixiv.net/img-original/img/2015/07/20/18/46/59/51517278_p1.jpg
+path.image.referer.0
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=51517278&page=0
+path.image.referer.1
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=51517278&page=1

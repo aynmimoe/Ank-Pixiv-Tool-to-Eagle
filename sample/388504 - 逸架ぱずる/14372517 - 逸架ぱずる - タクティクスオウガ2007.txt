@@ -1,0 +1,48 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=14372517
+illust.id
+	14372517
+illust.dateTime.year
+	2010
+illust.dateTime.month
+	11
+illust.dateTime.day
+	06
+illust.dateTime.hour
+	03
+illust.dateTime.minute
+	10
+illust.updated
+	201011060310
+illust.size.width
+	850
+illust.size.height
+	470
+illust.tags.0
+	タクティクスオウガ
+illust.tools
+	Photoshopつけペン
+illust.width
+	850
+illust.height
+	470
+illust.server
+	i2
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=big&illust_id=14372517
+illust.title
+	タクティクスオウガ2007
+illust.comment
+	2007年の絵です。リメイク記念にアップ。発売まであと５日とかどうしよううう！
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i2.pixiv.net/img-original/img/2010/11/06/03/10/28/14372517_p0.jpg
+path.image.referer
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=14372517

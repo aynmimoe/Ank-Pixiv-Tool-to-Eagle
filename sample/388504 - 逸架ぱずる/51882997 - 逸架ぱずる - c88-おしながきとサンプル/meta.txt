@@ -1,0 +1,65 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=51882997
+illust.id
+	51882997
+illust.dateTime.year
+	2015
+illust.dateTime.month
+	08
+illust.dateTime.day
+	10
+illust.dateTime.hour
+	00
+illust.dateTime.minute
+	33
+illust.updated
+	201508100033
+illust.tags.0
+	タクティクスオウガ
+illust.tags.1
+	C88
+illust.shortTags.0
+	C88
+illust.tools
+	Photoshop鉛筆つけペン
+illust.server
+	i2
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=manga_big&page=0&illust_id=51882997
+illust.title
+	c88-おしながきとサンプル
+illust.comment
+	8月14日（１日目金曜日）西1 よ-10a 「ぱずる座」
+	
+	新刊は、「タクティクスオウガ20周年おめでとうございます本」です。ペラっペラです。すみません…！　表紙の絵だけ印刷に間に合わなかったので、後でカバーをかけるという、手作り感あふれる仕様となっております。新刊ご購入の方にポストカードプレゼント。どうぞよろしくお願いいたします。
+	
+	BOOTHさんで通販始めました！　詳しくはブログをご覧ください。
+	http://itsuka.puzzle.pupu.jp/
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i2.pixiv.net/img-original/img/2015/08/10/00/33/06/51882997_p0.jpg
+path.image.images.1
+	http://i2.pixiv.net/img-original/img/2015/08/10/00/33/06/51882997_p1.jpg
+path.image.images.2
+	http://i2.pixiv.net/img-original/img/2015/08/10/00/33/06/51882997_p2.jpg
+path.image.images.3
+	http://i2.pixiv.net/img-original/img/2015/08/10/00/33/06/51882997_p3.jpg
+path.image.images.4
+	http://i2.pixiv.net/img-original/img/2015/08/10/00/33/06/51882997_p4.jpg
+path.image.referer.0
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=51882997&page=0
+path.image.referer.1
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=51882997&page=1
+path.image.referer.2
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=51882997&page=2
+path.image.referer.3
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=51882997&page=3
+path.image.referer.4
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=51882997&page=4

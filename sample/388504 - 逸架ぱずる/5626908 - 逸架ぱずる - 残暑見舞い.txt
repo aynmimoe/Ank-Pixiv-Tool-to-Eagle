@@ -1,0 +1,68 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=5626908
+illust.id
+	5626908
+illust.dateTime.year
+	2009
+illust.dateTime.month
+	08
+illust.dateTime.day
+	13
+illust.dateTime.hour
+	19
+illust.dateTime.minute
+	13
+illust.updated
+	200908131913
+illust.size.width
+	454
+illust.size.height
+	660
+illust.tags.0
+	残暑見舞い
+illust.tags.1
+	オリジナル
+illust.tags.2
+	小学生
+illust.tags.3
+	水着
+illust.tags.4
+	こーしょー19さい
+illust.tags.5
+	和泉乃音
+illust.shortTags.0
+	残暑見舞い
+illust.shortTags.1
+	オリジナル
+illust.shortTags.2
+	小学生
+illust.shortTags.3
+	水着
+illust.shortTags.4
+	和泉乃音
+illust.tools
+	Photoshopつけペン
+illust.width
+	454
+illust.height
+	660
+illust.server
+	i1
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=big&illust_id=5626908
+illust.title
+	残暑見舞い
+illust.comment
+	うちの娘です。
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i1.pixiv.net/img-original/img/2009/08/13/19/13/05/5626908_p0.jpg
+path.image.referer
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=5626908

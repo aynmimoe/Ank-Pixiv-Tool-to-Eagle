@@ -1,0 +1,66 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=51409953
+illust.id
+	51409953
+illust.dateTime.year
+	2015
+illust.dateTime.month
+	07
+illust.dateTime.day
+	14
+illust.dateTime.hour
+	11
+illust.dateTime.minute
+	50
+illust.updated
+	201507141150
+illust.size.width
+	684
+illust.size.height
+	872
+illust.tags.0
+	オリジナル
+illust.tags.1
+	小学生
+illust.tags.2
+	商業誌
+illust.tags.3
+	ねずみ
+illust.tags.4
+	アノマロカリス
+illust.shortTags.0
+	オリジナル
+illust.shortTags.1
+	小学生
+illust.shortTags.2
+	商業誌
+illust.shortTags.3
+	ねずみ
+illust.shortTags.4
+	アノマロカリス
+illust.tools
+	Photoshopつけペン
+illust.width
+	684
+illust.height
+	872
+illust.server
+	i2
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=big&illust_id=51409953
+illust.title
+	ユウマ＆リコ＆ガリレオ
+illust.comment
+	「週刊 なぞとき」朝日ジュニア百科（朝日新聞出版）という雑誌で、1年をかけて漫画を描かせていただきました。完結記念に「ガリレオのなぞとき大冒険」に登場したシーンから抜粋して並べてみました。[詳細ページ]http://puzzle.pupu.jp/c_nazo/nazotoki2014.html　バックナンバーもあると思いますのでよかったら見てみてください！　
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i2.pixiv.net/img-original/img/2015/07/14/11/50/55/51409953_p0.jpg
+path.image.referer
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=51409953

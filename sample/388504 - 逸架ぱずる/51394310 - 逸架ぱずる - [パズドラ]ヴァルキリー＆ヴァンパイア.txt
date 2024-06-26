@@ -1,0 +1,58 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=51394310
+illust.id
+	51394310
+illust.dateTime.year
+	2015
+illust.dateTime.month
+	07
+illust.dateTime.day
+	13
+illust.dateTime.hour
+	10
+illust.dateTime.minute
+	13
+illust.updated
+	201507131013
+illust.size.width
+	800
+illust.size.height
+	500
+illust.tags.0
+	パズドラ
+illust.tags.1
+	パズル&ドラゴンズ
+illust.tags.2
+	プリンセスヴァルキリー
+illust.tags.3
+	ヴァンパイアロード
+illust.tags.4
+	Puzzle&Dragons
+illust.shortTags.0
+	パズドラ
+illust.tools
+	Photoshopつけペン
+illust.width
+	800
+illust.height
+	500
+illust.server
+	i3
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=big&illust_id=51394310
+illust.title
+	[パズドラ]ヴァルキリー＆ヴァンパイア
+illust.comment
+	パズル＆ドラゴンのプリンセスヴァルキリーとヴァンパイアロードです。2014年にコミケで配布した「うちわ」のイラストに使いました。
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i3.pixiv.net/img-original/img/2015/07/13/10/13/19/51394310_p0.jpg
+path.image.referer
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=51394310

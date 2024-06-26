@@ -1,0 +1,68 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=12715824
+illust.id
+	12715824
+illust.dateTime.year
+	2010
+illust.dateTime.month
+	08
+illust.dateTime.day
+	21
+illust.dateTime.hour
+	20
+illust.dateTime.minute
+	07
+illust.updated
+	201008212007
+illust.size.width
+	700
+illust.size.height
+	826
+illust.tags.0
+	小学生
+illust.tags.1
+	ランドセル
+illust.tags.2
+	オリジナル
+illust.tags.3
+	声優
+illust.tags.4
+	こーしょー19さい
+illust.tags.5
+	和泉乃音
+illust.shortTags.0
+	小学生
+illust.shortTags.1
+	ランドセル
+illust.shortTags.2
+	オリジナル
+illust.shortTags.3
+	声優
+illust.shortTags.4
+	和泉乃音
+illust.tools
+	Photoshopつけペン
+illust.width
+	700
+illust.height
+	826
+illust.server
+	i1
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=big&illust_id=12715824
+illust.title
+	こーしょー19さい
+illust.comment
+	夏コミで配布したポストカードのイラストです。「こーしょー19さい」小学生声優４コマです！！　（5/2追記）5/5のコミティアにポストカード持って行きます！
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i1.pixiv.net/img-original/img/2010/08/21/20/07/38/12715824_p0.jpg
+path.image.referer
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=12715824

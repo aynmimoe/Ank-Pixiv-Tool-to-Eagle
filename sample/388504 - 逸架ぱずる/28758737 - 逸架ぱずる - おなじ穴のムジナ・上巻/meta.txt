@@ -1,0 +1,116 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=28758737
+illust.id
+	28758737
+illust.dateTime.year
+	2012
+illust.dateTime.month
+	07
+illust.dateTime.day
+	20
+illust.dateTime.hour
+	23
+illust.dateTime.minute
+	04
+illust.updated
+	201207202304
+illust.tags.0
+	漫画
+illust.tags.1
+	4コマ
+illust.tags.2
+	商業誌
+illust.tags.3
+	再録
+illust.tags.4
+	コミックマーケット82
+illust.tags.5
+	通販希望!!
+illust.shortTags.0
+	漫画
+illust.shortTags.1
+	4コマ
+illust.shortTags.2
+	商業誌
+illust.shortTags.3
+	再録
+illust.shortTags.4
+	通販希望!!
+illust.tools
+	Photoshopつけペン
+illust.server
+	i2
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=manga_big&page=0&illust_id=28758737
+illust.title
+	おなじ穴のムジナ・上巻
+illust.comment
+	夏コミ新刊の見本です。商業誌に連載させていただいた作品の、17話分のお話を同人誌にしました。タヌキと３人の女子高生のゆるゆる日常４コマです。タヌキが管理人さんの100％天然寮生活！（連載時キャッチコピー）よろしくお願いしますー(＾▽＾)/　Ａ5/122Ｐ　8/12（日）【ぱずる座】西え-24b（創作スペース） ■7/30追記■とらのあなさんで予約始まりました！http://www.toranoana.jp/mailorder/article/04/0030/05/86/040030058651.html
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i2.pixiv.net/img-original/img/2012/07/20/23/04/44/28758737_p0.jpg
+path.image.images.1
+	http://i2.pixiv.net/img-original/img/2012/07/20/23/04/44/28758737_p1.jpg
+path.image.images.2
+	http://i2.pixiv.net/img-original/img/2012/07/20/23/04/44/28758737_p2.jpg
+path.image.images.3
+	http://i2.pixiv.net/img-original/img/2012/07/20/23/04/44/28758737_p3.jpg
+path.image.images.4
+	http://i2.pixiv.net/img-original/img/2012/07/20/23/04/44/28758737_p4.jpg
+path.image.images.5
+	http://i2.pixiv.net/img-original/img/2012/07/20/23/04/44/28758737_p5.jpg
+path.image.images.6
+	http://i2.pixiv.net/img-original/img/2012/07/20/23/04/44/28758737_p6.jpg
+path.image.images.7
+	http://i2.pixiv.net/img-original/img/2012/07/20/23/04/44/28758737_p7.jpg
+path.image.images.8
+	http://i2.pixiv.net/img-original/img/2012/07/20/23/04/44/28758737_p8.jpg
+path.image.images.9
+	http://i2.pixiv.net/img-original/img/2012/07/20/23/04/44/28758737_p9.jpg
+path.image.images.10
+	http://i2.pixiv.net/img-original/img/2012/07/20/23/04/44/28758737_p10.jpg
+path.image.images.11
+	http://i2.pixiv.net/img-original/img/2012/07/20/23/04/44/28758737_p11.jpg
+path.image.images.12
+	http://i2.pixiv.net/img-original/img/2012/07/20/23/04/44/28758737_p12.jpg
+path.image.images.13
+	http://i2.pixiv.net/img-original/img/2012/07/20/23/04/44/28758737_p13.jpg
+path.image.images.14
+	http://i2.pixiv.net/img-original/img/2012/07/20/23/04/44/28758737_p14.jpg
+path.image.referer.0
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=28758737&page=0
+path.image.referer.1
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=28758737&page=1
+path.image.referer.2
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=28758737&page=2
+path.image.referer.3
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=28758737&page=3
+path.image.referer.4
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=28758737&page=4
+path.image.referer.5
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=28758737&page=5
+path.image.referer.6
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=28758737&page=6
+path.image.referer.7
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=28758737&page=7
+path.image.referer.8
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=28758737&page=8
+path.image.referer.9
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=28758737&page=9
+path.image.referer.10
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=28758737&page=10
+path.image.referer.11
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=28758737&page=11
+path.image.referer.12
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=28758737&page=12
+path.image.referer.13
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=28758737&page=13
+path.image.referer.14
+	http://www.pixiv.net/member_illust.php?mode=manga_big&illust_id=28758737&page=14

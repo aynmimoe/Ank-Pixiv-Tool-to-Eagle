@@ -1,0 +1,64 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=1972482
+illust.id
+	1972482
+illust.dateTime.year
+	2008
+illust.dateTime.month
+	10
+illust.dateTime.day
+	27
+illust.dateTime.hour
+	16
+illust.dateTime.minute
+	34
+illust.updated
+	200810271634
+illust.size.width
+	660
+illust.size.height
+	635
+illust.tags.0
+	オリジナル
+illust.tags.1
+	ツインテール
+illust.tags.2
+	女の子
+illust.tags.3
+	巫女
+illust.tags.4
+	Photoshop
+illust.shortTags.0
+	オリジナル
+illust.shortTags.1
+	ツインテール
+illust.shortTags.2
+	女の子
+illust.shortTags.3
+	巫女
+illust.tools
+	Photoshopつけペン
+illust.width
+	660
+illust.height
+	635
+illust.server
+	i3
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=big&illust_id=1972482
+illust.title
+	かみさま２
+illust.comment
+	かみさま２枚目です。集合イラストー！壁紙にするつもりだったんですが…微妙に…サイズが…あわせられなくて挫折。
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i3.pixiv.net/img-original/img/2008/10/27/16/34/33/1972482_p0.jpg
+path.image.referer
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=1972482

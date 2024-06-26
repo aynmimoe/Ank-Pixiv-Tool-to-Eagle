@@ -1,0 +1,54 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=12155874
+illust.id
+	12155874
+illust.dateTime.year
+	2010
+illust.dateTime.month
+	07
+illust.dateTime.day
+	27
+illust.dateTime.hour
+	16
+illust.dateTime.minute
+	58
+illust.updated
+	201007271658
+illust.size.width
+	476
+illust.size.height
+	652
+illust.tags.0
+	c78
+illust.tags.1
+	表紙
+illust.shortTags.0
+	c78
+illust.shortTags.1
+	表紙
+illust.tools
+	Photoshopつけペン
+illust.width
+	476
+illust.height
+	652
+illust.server
+	i3
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=big&illust_id=12155874
+illust.title
+	c78表紙『がんばろ・まい！』
+illust.comment
+	表紙トリミング前。夏コミにて『がんばろ・まい！』のまとめ本を出す予定です。よろしくお願いしますー【8/15 西 そ-06b】 ミスを見つけたのでアップしなおしました。スミマセン><
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i3.pixiv.net/img-original/img/2010/07/27/16/58/56/12155874_p0.jpg
+path.image.referer
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=12155874

@@ -1,0 +1,64 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=1944679
+illust.id
+	1944679
+illust.dateTime.year
+	2008
+illust.dateTime.month
+	10
+illust.dateTime.day
+	24
+illust.dateTime.hour
+	10
+illust.dateTime.minute
+	33
+illust.updated
+	200810241033
+illust.size.width
+	800
+illust.size.height
+	500
+illust.tags.0
+	Photoshop
+illust.tags.1
+	オリジナル
+illust.tags.2
+	女の子
+illust.tags.3
+	巫女
+illust.tags.4
+	ツインテール
+illust.shortTags.0
+	オリジナル
+illust.shortTags.1
+	女の子
+illust.shortTags.2
+	巫女
+illust.shortTags.3
+	ツインテール
+illust.tools
+	Photoshopつけペン
+illust.width
+	800
+illust.height
+	500
+illust.server
+	i4
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=big&illust_id=1944679
+illust.title
+	かみさま
+illust.comment
+	お仕事でデザインさせてもらった絵なんですが、掲載されていたサイトがなくなってしまったので、少しでもたくさんの人に見てもらえるといいなーと思ってアップしました。ネーミングとか可愛くて大好きでした！
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i4.pixiv.net/img-original/img/2008/10/24/10/33/20/1944679_p0.jpg
+path.image.referer
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=1944679

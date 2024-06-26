@@ -1,0 +1,66 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=20298576
+illust.id
+	20298576
+illust.dateTime.year
+	2011
+illust.dateTime.month
+	07
+illust.dateTime.day
+	14
+illust.dateTime.hour
+	02
+illust.dateTime.minute
+	46
+illust.updated
+	201107140246
+illust.size.width
+	600
+illust.size.height
+	511
+illust.tags.0
+	タクティクスオウガ
+illust.tags.1
+	カノープス
+illust.tags.2
+	デネブ
+illust.tags.3
+	カノープス・ウォルフ
+illust.tags.4
+	デネブ・ローブ
+illust.tags.5
+	いい値で買おう
+illust.shortTags.0
+	カノープス
+illust.shortTags.1
+	デネブ
+illust.shortTags.2
+	デネブ・ローブ
+illust.shortTags.3
+	いい値で買おう
+illust.tools
+	Photoshopつけペン
+illust.width
+	600
+illust.height
+	511
+illust.server
+	i1
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=big&illust_id=20298576
+illust.title
+	バッヂ
+illust.comment
+	こういうのを作りたいなあと！　ストラップタイプになると思います。
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i1.pixiv.net/img-original/img/2011/07/14/02/46/10/20298576_p0.jpg
+path.image.referer
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=20298576

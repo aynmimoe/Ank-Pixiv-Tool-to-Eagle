@@ -1,0 +1,70 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=20663160
+illust.id
+	20663160
+illust.dateTime.year
+	2011
+illust.dateTime.month
+	07
+illust.dateTime.day
+	29
+illust.dateTime.hour
+	07
+illust.dateTime.minute
+	53
+illust.updated
+	201107290753
+illust.size.width
+	555
+illust.size.height
+	790
+illust.tags.0
+	コミックマーケット80
+illust.tags.1
+	タクティクスオウガ
+illust.tags.2
+	デニム・パウエル
+illust.tags.3
+	カノープス・ウォルフ
+illust.tags.4
+	システィーナ・フォリナー
+illust.tags.5
+	セリエ・フォリナー
+illust.tags.6
+	デネブ・ローブ
+illust.tags.7
+	アロセール・ダーニャ
+illust.tags.8
+	ヴァイス・ボゼック
+illust.tags.9
+	カチュア・パウエル
+illust.shortTags.0
+	デニム・パウエル
+illust.shortTags.1
+	デネブ・ローブ
+illust.tools
+	Photoshopつけペン
+illust.width
+	555
+illust.height
+	790
+illust.server
+	i1
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=big&illust_id=20663160
+illust.title
+	タクティクスオウガ PSP版発売記念！
+illust.comment
+	タクティクスオウガ PSP版発売記念！　夏コミ用タクティクスオウガ本のイラストです。　8/12　【ぱずる座】　西れ-03b　（タクティクスオウガSP）
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i1.pixiv.net/img-original/img/2011/07/29/07/53/05/20663160_p0.jpg
+path.image.referer
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=20663160

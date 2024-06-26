@@ -1,0 +1,48 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=18574777
+illust.id
+	18574777
+illust.dateTime.year
+	2011
+illust.dateTime.month
+	05
+illust.dateTime.day
+	02
+illust.dateTime.hour
+	20
+illust.dateTime.minute
+	06
+illust.updated
+	201105022006
+illust.size.width
+	516
+illust.size.height
+	729
+illust.tags.0
+	タクティクスオウガ
+illust.tools
+	Photoshopつけペン
+illust.width
+	516
+illust.height
+	729
+illust.server
+	i2
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=big&illust_id=18574777
+illust.title
+	タクティクスオウガ-運命の輪-
+illust.comment
+	5/3のスパコミ発行予定の、コピー本表紙絵です。アクシデントがなければ出る…ハズ…よろしくお願いします！　シ01b　【ぱずる座とオレノイ】
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i2.pixiv.net/img-original/img/2011/05/02/20/06/35/18574777_p0.jpg
+path.image.referer
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=18574777

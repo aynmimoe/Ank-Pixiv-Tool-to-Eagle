@@ -1,0 +1,48 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=14510336
+illust.id
+	14510336
+illust.dateTime.year
+	2010
+illust.dateTime.month
+	11
+illust.dateTime.day
+	12
+illust.dateTime.hour
+	10
+illust.dateTime.minute
+	59
+illust.updated
+	201011121059
+illust.size.width
+	700
+illust.size.height
+	620
+illust.tags.0
+	タクティクスオウガ
+illust.tools
+	Photoshopミリペン
+illust.width
+	700
+illust.height
+	620
+illust.server
+	i1
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=big&illust_id=14510336
+illust.title
+	タクティクスオウガ2003
+illust.comment
+	2003年の絵です。PSPタクティクスオウガがまだ届かないんだあああ！　早くッ…！
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i1.pixiv.net/img-original/img/2010/11/12/10/59/16/14510336_p0.jpg
+path.image.referer
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=14510336

@@ -1,0 +1,62 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=2444061
+illust.id
+	2444061
+illust.dateTime.year
+	2008
+illust.dateTime.month
+	12
+illust.dateTime.day
+	18
+illust.dateTime.hour
+	22
+illust.dateTime.minute
+	41
+illust.updated
+	200812182241
+illust.size.width
+	627
+illust.size.height
+	719
+illust.tags.0
+	いちご
+illust.tags.1
+	オリジナル
+illust.tags.2
+	姉弟
+illust.tags.3
+	C75
+illust.shortTags.0
+	いちご
+illust.shortTags.1
+	オリジナル
+illust.shortTags.2
+	姉弟
+illust.shortTags.3
+	C75
+illust.tools
+	Photoshopつけペン
+illust.width
+	627
+illust.height
+	719
+illust.server
+	i2
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=big&illust_id=2444061
+illust.title
+	ふたつぶいちご♪
+illust.comment
+	c75新刊表紙の元絵です。商業誌4コマをまとめた本を作りました。今更…欲しいといってくださる方がいらっしゃるのか…（´Д｀；）。詳しくはコチラ（http://puzzle.pupu.jp/c_ichigo/c_ichigo00.htm）
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i2.pixiv.net/img-original/img/2008/12/18/22/41/36/2444061_p0.jpg
+path.image.referer
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=2444061

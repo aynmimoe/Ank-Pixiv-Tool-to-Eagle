@@ -1,0 +1,72 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=32311089
+illust.id
+	32311089
+illust.dateTime.year
+	2012
+illust.dateTime.month
+	12
+illust.dateTime.day
+	24
+illust.dateTime.hour
+	01
+illust.dateTime.minute
+	30
+illust.updated
+	201212240130
+illust.size.width
+	859
+illust.size.height
+	596
+illust.tags.0
+	4コマ
+illust.tags.1
+	コミックマーケット83
+illust.tags.2
+	再録
+illust.tags.3
+	商業誌
+illust.tags.4
+	漫画
+illust.tags.5
+	タヌキ
+illust.tags.6
+	女子高生
+illust.shortTags.0
+	4コマ
+illust.shortTags.1
+	再録
+illust.shortTags.2
+	商業誌
+illust.shortTags.3
+	漫画
+illust.shortTags.4
+	タヌキ
+illust.shortTags.5
+	女子高生
+illust.tools
+	Photoshopつけペン
+illust.width
+	859
+illust.height
+	596
+illust.server
+	i2
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=big&illust_id=32311089
+illust.title
+	おなじ穴のムジナ・下巻
+illust.comment
+	冬コミ新刊の表紙です。夏の本の続きです！　商業誌に連載させていただいた作品の、15話分のお話を同人誌にしました。タヌキと３人の女子高生のゆるゆる日常４コマ。よろしくお願いします！　【３日目　西み－09b　ぱずる座】冬コミ情報ページ⇒http://puzzle.pupu.jp/comiket/c83.htm
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i2.pixiv.net/img-original/img/2012/12/24/01/30/34/32311089_p0.jpg
+path.image.referer
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=32311089

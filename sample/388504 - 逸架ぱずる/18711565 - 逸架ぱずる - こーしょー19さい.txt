@@ -1,0 +1,70 @@
+illust.pageUrl
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=18711565
+illust.id
+	18711565
+illust.dateTime.year
+	2011
+illust.dateTime.month
+	05
+illust.dateTime.day
+	07
+illust.dateTime.hour
+	19
+illust.dateTime.minute
+	58
+illust.updated
+	201105071958
+illust.size.width
+	450
+illust.size.height
+	442
+illust.tags.0
+	こーしょー19さい
+illust.tags.1
+	オリジナル
+illust.tags.2
+	小学生
+illust.tags.3
+	ランドセル
+illust.tags.4
+	和泉乃音
+illust.tags.5
+	声優
+illust.tags.6
+	2巻発売おめでとうございます
+illust.shortTags.0
+	オリジナル
+illust.shortTags.1
+	小学生
+illust.shortTags.2
+	ランドセル
+illust.shortTags.3
+	和泉乃音
+illust.shortTags.4
+	声優
+illust.tools
+	Photoshopつけペン
+illust.width
+	450
+illust.height
+	442
+illust.server
+	i2
+illust.referer
+	http://www.pixiv.net/member_illust.php?mode=big&illust_id=18711565
+illust.title
+	こーしょー19さい
+illust.comment
+	5/5のコミティアで配布したペーパーのイラストです。「こーしょー19さい」２巻発売が決まりました！7/12予定です。よろしくお願いしますー！
+member.id
+	388504
+member.pixivId
+	puzz_le
+member.name
+	逸架ぱずる
+path.ext
+	.jpg
+path.image.images.0
+	http://i2.pixiv.net/img-original/img/2011/05/07/19/58/36/18711565_p0.jpg
+path.image.referer
+	http://www.pixiv.net/member_illust.php?mode=medium&illust_id=18711565
