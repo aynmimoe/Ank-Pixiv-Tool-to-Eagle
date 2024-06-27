@@ -22,37 +22,27 @@ def jsonDict_to_eagleDict(jsonDict, filePath, eagleFolderId, maxFile=0):
         "folderId": eagleFolderId
     }
 
+    baseData = {
+        "name": data['info']['illust']['title'],
+        "annotation": data['info']['illust']['caption'],
+        "website": pageUrl,
+        "tags": list(tags),
+        "modificationTime":  data['info']['illust']['posted']
+    }
+
     maxFile = int(maxFile)
     if maxFile > 0:
         basePath = filePath.rsplit('/', 1)[0]
         items = []
         for itemNum in range(1,maxFile+1):
-            items.append({
-                "path": (basePath+"/"+"%d" % (itemNum))+'.'+pathExt,
-                "name": data['info']['illust']['title'],
-                "annotation": data['info']['illust']['caption'],
-                "website": pageUrl,
-                "tags": list(tags),
-            })
-            items.append({
-                "path": (basePath+"/"+"%02d" % (itemNum))+'.'+pathExt,
-                "name": data['info']['illust']['title'],
-                "annotation": data['info']['illust']['caption'],
-                "website": pageUrl,
-                "tags": list(tags),
-            })
+            items.append({"path": (basePath+"/"+"%d" % (itemNum))+'.'+pathExt} | baseData)
+            items.append({"path": (basePath+"/"+"%02d" % (itemNum))+'.'+pathExt} | baseData)
             pass
         data = {"items": items} | folderData
         pass
     else:
         baseFilePath = filePath.rsplit('.', 1)[0]
-        singleItemData = {
-            "path": baseFilePath+'.'+pathExt,
-            "name": data['info']['illust']['title'],
-            "annotation": data['info']['illust']['caption'],
-            "website": pageUrl,
-            "tags": list(tags),
-        }
+        singleItemData = {"path": baseFilePath+'.'+pathExt} | baseData
         data = singleItemData | folderData
         pass
 
