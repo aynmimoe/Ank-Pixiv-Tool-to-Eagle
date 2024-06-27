@@ -1,3 +1,4 @@
+from datetime import datetime
 
 def readFile_to_txtDict(filename):
     txt_fo = open(filename, "r")
@@ -33,9 +34,14 @@ def txtDict_to_eagleDict(txtDict, filePath, eagleFolderId, maxFile=0):
     data = txtDict
     pageUrl = data.get('illust.pageUrl') if data.get('illust.pageUrl') is not None else data.get('path.mangaIndexPage')
     tags = {k: v for k, v in data.items() if any(x in k for x in ['illust.tags'])}.values()
-
-    # TODO: filePath拿到的是描述txt檔，仍需要透過txtDict拿到的path.ext改寫副檔名，才會拿到圖片本體
     pathExt = data.get("path.ext")
+
+    illustYear = data.get("illust.dateTime.year")
+    illustMonth = data.get("illust.dateTime.month")
+    illustDay = data.get("illust.dateTime.day")
+    illustHour = data.get("illust.dateTime.hour")
+    illustMinute = data.get("illust.dateTime.minute")
+    illustTs = int(datetime(2008, 10, 21, 10,53).timestamp()) * 100
 
     folderData = {
         "folderId": eagleFolderId
@@ -46,6 +52,7 @@ def txtDict_to_eagleDict(txtDict, filePath, eagleFolderId, maxFile=0):
         "annotation": data.get("illust.comment"),
         "website": pageUrl,
         "tags": list(tags),
+        "modificationTime": illustTs
     }
 
     maxFile = int(maxFile)
