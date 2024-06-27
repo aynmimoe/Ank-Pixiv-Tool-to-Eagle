@@ -57,8 +57,9 @@ def txtDict_to_eagleDict(txtDict, filePath, eagleFolderId, maxFile=0):
         data = {"items": items} | folderData
         pass
     else:
+        baseFilePath = filePath.rsplit('.', 1)[0]
         singleItemData = {
-            "path": filePath,
+            "path": baseFilePath+''+pathExt,
             "name": data.get("illust.title"),
             "annotation": data.get("illust.comment"),
             "website": pageUrl,
