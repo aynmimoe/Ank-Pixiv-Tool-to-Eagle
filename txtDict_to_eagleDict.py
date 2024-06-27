@@ -1,5 +1,5 @@
 
-def txt_file_to_dict(filename):
+def readFile_to_txtDict(filename):
     txt_fo = open(filename, "r")
 
     #for line in txt_fo.readlines():
@@ -82,7 +82,7 @@ if __name__ == "__main__":
     except IndexError as e:
         filePath = "sample/つのじゅ - ___ (27116379).txt"
 
-    txtDict = txt_file_to_dict(filePath)
+    txtDict = readFile_to_txtDict(filePath)
     #print(txtDict)
     reqData = txtDict_to_eagleDict(txtDict, filePath, '0x00000', maxFile)
     print(reqData)
