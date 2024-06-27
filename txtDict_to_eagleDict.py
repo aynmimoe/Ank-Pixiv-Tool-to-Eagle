@@ -15,16 +15,39 @@ def readFile_to_txtDict(filename):
 
     data = {}
 
+    key = '';
+    value = '';
     while True:
-        line1 = txt_fo.readline()
-        line2 = txt_fo.readline()
-        if not line2: break  # EOF
-        #print('line1: '+line1+'line2: '+line2)
+        line = txt_fo.readline()
+        if not line:
+            break
+        # 此行是標題
+        if line[:1] != '\t':
+            # 將上一個
+            if key != '':
+                data[key] = value
+                key = ''
+                value = ''
 
-        key = line1.strip()
-        value = line2.strip()
+            key = line.strip()
+            continue
+        # 此行是內文
+        else:
+            if value == '':
+                value = line.strip()
+            else: 
+                value += '\n'+line.strip()
 
-        data[key] = value
+    # while True:
+    #     line1 = txt_fo.readline()
+    #     line2 = txt_fo.readline()
+    #     if not line2: break  # EOF
+    #     #print('line1: '+line1+'line2: '+line2)
+
+    #     key = line1.strip()
+    #     value = line2.strip()
+
+    #     data[key] = value
 
     # 关闭文件
     txt_fo.close()
