@@ -34,7 +34,8 @@ def jsonDict_to_eagleDict(jsonDict, filePath, maxFile=0):
         items = []
         for itemNum in range(1,maxFile+1):
             items.append({"path": (basePath+"/"+"%d" % (itemNum))+'.'+pathExt} | baseData)
-            items.append({"path": (basePath+"/"+"%02d" % (itemNum))+'.'+pathExt} | baseData)
+            if itemNum < 10:
+                items.append({"path": (basePath+"/"+"%02d" % (itemNum))+'.'+pathExt} | baseData)
             pass
         data = {"items": items} | folderData
         pass
