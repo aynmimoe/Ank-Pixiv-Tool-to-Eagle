@@ -41,30 +41,25 @@ def txtDict_to_eagleDict(txtDict, filePath, eagleFolderId, maxFile=0):
         "folderId": eagleFolderId
     }
 
+    baseData = {
+        "name": data.get("illust.title"),
+        "annotation": data.get("illust.comment"),
+        "website": pageUrl,
+        "tags": list(tags),
+    }
+
     maxFile = int(maxFile)
     if maxFile > 0:
         basePath = filePath.rsplit('/', 1)[0]
         items = []
         for itemNum in range(1,maxFile+1):
-            items.append({
-                "path": (basePath+"/"+"%02d" % (itemNum))+pathExt,
-                "name": data.get("illust.title"),
-                "annotation": data.get("illust.comment"),
-                "website": pageUrl,
-                "tags": list(tags),
-            })
+            items.append({"path": (basePath+"/"+"%02d" % (itemNum))+pathExt} | baseData)
             pass
         data = {"items": items} | folderData
         pass
     else:
         baseFilePath = filePath.rsplit('.', 1)[0]
-        singleItemData = {
-            "path": baseFilePath+''+pathExt,
-            "name": data.get("illust.title"),
-            "annotation": data.get("illust.comment"),
-            "website": pageUrl,
-            "tags": list(tags),
-        }
+        singleItemData = {"path": baseFilePath+''+pathExt } | baseData
         data = singleItemData | folderData
         pass
 
