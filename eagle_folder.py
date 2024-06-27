@@ -43,11 +43,26 @@ def search_folder(folders, author, pid):
         if target is not None:
             return target
 
+def createFolder(authorName, pid):
+    createResp = requests.post(eagle_api_url+'/api/folder/create', json={"folderName": authorName})
+    if createResp.status_code == 200:
+        createRespData = createResp.json()
+        eagleCreatedFolderId = createRespData['data']['id']
+
+        createResp = requests.post(eagle_api_url+'/api/folder/update', json={
+            "folderId": eagleCreatedFolderId,
+            "newDescription": "pid = "+str(pid)
+        })
+
+        return eagleCreatedFolderId
+
 if __name__ == "__main__":
     import sys
 
     getEagleAllFolder()
     # print(eagle_all_folders)
 
-    thisFolder = search_folder(eagle_all_folders, None, '264932')
-    print(thisFolder)
+    # thisFolder = search_folder(eagle_all_folders, None, '2649332')
+    # print(thisFolder)
+    createdFolderId = createFolder('asasasas', 11111111)
+    print(createdFolderId)
