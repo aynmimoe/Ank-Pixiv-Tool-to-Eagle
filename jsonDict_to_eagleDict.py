@@ -8,7 +8,7 @@ def readFile_to_jsonDict(filename):
     return data
 
 
-def jsonDict_to_eagleDict(jsonDict, filePath, eagleFolderId, maxFile=0):
+def jsonDict_to_eagleDict(jsonDict, filePath, maxFile=0):
     data = jsonDict
     #print(data['info']['illust']['title'])
 
@@ -18,9 +18,7 @@ def jsonDict_to_eagleDict(jsonDict, filePath, eagleFolderId, maxFile=0):
     # TODO: filePath拿到的是描述txt檔，仍需要透過txtDict拿到的path.ext改寫副檔名，才會拿到圖片本體
     pathExt = data['info']['path'][0]['src'].split('.')[-1]
 
-    folderData = {
-        "folderId": eagleFolderId
-    }
+    folderData = {}
 
     baseData = {
         "name": data['info']['illust']['title'],
@@ -48,17 +46,23 @@ def jsonDict_to_eagleDict(jsonDict, filePath, eagleFolderId, maxFile=0):
 
     return data
 
+def jsonDict_to_puserId(jsonDict):
+    return jsonDict['info']['member']['id']
+def jsonDict_to_puserName(jsonDict):
+    return jsonDict['info']['member']['name']
+
 if __name__ == "__main__":
     import sys
 
     try:
         filePath = sys.argv[1]
-        eagleFolderId = sys.argv[2]
-        maxFile = sys.argv[3]
+        maxFile = sys.argv[2]
         #print(sys.argv[1])
     except IndexError as e:
         filePath = "sample/(12532) 砂(s73d)/2017-07-29 (64114679) 魔理沙.json"
 
     jsonDict = readFile_to_jsonDict(filePath)
-    reqData = jsonDict_to_eagleDict(jsonDict, filePath, '0x00000', maxFile)
+    reqData = jsonDict_to_eagleDict(jsonDict, filePath, maxFile)
     print(reqData)
+
+    print("pixivId: "+jsonDict_to_puserId(jsonDict) + "  pixivName: "+ jsonDict_to_puserName(jsonDict))

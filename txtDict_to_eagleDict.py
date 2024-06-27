@@ -30,7 +30,7 @@ def readFile_to_txtDict(filename):
     txt_fo.close()
     return data
 
-def txtDict_to_eagleDict(txtDict, filePath, eagleFolderId, maxFile=0):
+def txtDict_to_eagleDict(txtDict, filePath, maxFile=0):
     data = txtDict
     pageUrl = data.get('illust.pageUrl') if data.get('illust.pageUrl') is not None else data.get('path.mangaIndexPage')
     tags = {k: v for k, v in data.items() if any(x in k for x in ['illust.tags'])}.values()
@@ -43,9 +43,7 @@ def txtDict_to_eagleDict(txtDict, filePath, eagleFolderId, maxFile=0):
     illustMinute = data.get("illust.dateTime.minute")
     illustTs = int(datetime(2008, 10, 21, 10,53).timestamp()) * 100
 
-    folderData = {
-        "folderId": eagleFolderId
-    }
+    folderData = {}
 
     baseData = {
         "name": data.get("illust.title"),
@@ -72,20 +70,25 @@ def txtDict_to_eagleDict(txtDict, filePath, eagleFolderId, maxFile=0):
 
     return data
 
+def txtDict_to_puserId(txtDict):
+    return txtDict.get('member.id')
+def txtDict_to_puserName(txtDict):
+    return txtDict.get('member.name')
+
 if __name__ == "__main__":
     import sys
     #fib(int(sys.argv[1]))
 
     try:
         filePath = sys.argv[1]
-        eagleFolderId = sys.argv[2]
-        maxFile = sys.argv[3]
+        maxFile = sys.argv[2]
         #print(sys.argv[1])
     except IndexError as e:
         filePath = "sample/つのじゅ - ___ (27116379).txt"
 
     txtDict = readFile_to_txtDict(filePath)
     #print(txtDict)
-    reqData = txtDict_to_eagleDict(txtDict, filePath, '0x00000', maxFile)
+    reqData = txtDict_to_eagleDict(txtDict, filePath, maxFile)
     print(reqData)
+    print("pixivId: "+txtDict_to_puserId(txtDict) + "  pixivName: "+ txtDict_to_puserName(txtDict))
 
