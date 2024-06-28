@@ -64,7 +64,7 @@ def txtDict_to_eagleDict(txtDict, filePath, maxFile=0):
     illustDay = data.get("illust.dateTime.day")
     illustHour = data.get("illust.dateTime.hour")
     illustMinute = data.get("illust.dateTime.minute")
-    illustTs = int(datetime(2008, 10, 21, 10,53).timestamp()) * 100
+    illustTs = int(datetime(int(illustYear), int(illustMonth), int(illustDay), int(illustHour),int(illustMinute)).timestamp()) * 1000
 
     folderData = {}
 
