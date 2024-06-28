@@ -8,7 +8,7 @@ def readFile_to_jsonDict(filename):
     return data
 
 
-def jsonDict_to_eagleDict(jsonDict, filePath, maxFile=0):
+def jsonDict_to_eagleDict(jsonDict, filePath, filePathList = [], maxFile=0):
     data = jsonDict
     #print(data['info']['illust']['title'])
 
@@ -29,7 +29,13 @@ def jsonDict_to_eagleDict(jsonDict, filePath, maxFile=0):
     }
 
     maxFile = int(maxFile)
-    if maxFile > 0:
+    if filePathList != []:
+        items = []
+        for theFile in filePathList:
+            items.append({"path": theFile} | baseData)
+        data = {"items": items} | folderData
+        pass
+    elif maxFile > 0:
         basePath = filePath.rsplit('/', 1)[0]
         items = []
         for itemNum in range(1,maxFile+1):

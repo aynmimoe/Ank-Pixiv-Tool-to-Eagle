@@ -30,21 +30,34 @@ if __name__ == "__main__":
             print(str(fileCount)+": "+filePath)
 
             # 若該檔案名稱是meta，代表這個資料夾是一個圖集
-            maxNum = 0
+            # maxNum = 0
+            filePathList = []
             if fileNameWithoutExt == 'meta':
-                # 計算圖片數量
                 folderFileList = os.listdir(baseFilePath)
-                nameList = list(map(lambda x: x.split('.')[0] ,folderFileList))
-                nameList.sort(reverse=True)
-                for theName in nameList:
-                    try:
-                        int(theName)
-                        maxNum = int(theName)
-                        break
-                    except ValueError:
+                folderFileList.sort()
+                for theFile in folderFileList:
+                    thePath = os.path.join(baseFilePath, theFile)
+                    theExt = theFile.split('.')[-1]
+                    # print(theFile)
+                    if theExt in ['txt','json']:
                         continue
                     else:
-                        continue
+                        filePathList.append(thePath)
+                # print(filePathList)
+                
+                # # 計算圖片數量
+                # folderFileList = os.listdir(baseFilePath)
+                # nameList = list(map(lambda x: x.split('.')[0] ,folderFileList))
+                # nameList.sort(reverse=True)
+                # for theName in nameList:
+                #     try:
+                #         int(theName)
+                #         maxNum = int(theName)
+                #         break
+                #     except ValueError:
+                #         continue
+                #     else:
+                #         continue
 
             # 製作Eagle Request Body
             if fileExt == 'txt':
@@ -52,7 +65,7 @@ if __name__ == "__main__":
                 if txtDict == {}:
                     errorFilePath.append(filePath)
                     continue
-                eagleData = txtDict_to_eagleDict.txtDict_to_eagleDict(txtDict, filePath, maxNum)
+                eagleData = txtDict_to_eagleDict.txtDict_to_eagleDict(txtDict, filePath, filePathList)
                 pUserId = txtDict_to_eagleDict.txtDict_to_puserId(txtDict)
                 pUserName = txtDict_to_eagleDict.txtDict_to_puserName(txtDict)
             elif fileExt == 'json':
@@ -60,7 +73,7 @@ if __name__ == "__main__":
                 if jsonDict == {}:
                     errorFilePath.append(filePath)
                     continue
-                eagleData = jsonDict_to_eagleDict.jsonDict_to_eagleDict(jsonDict, filePath, maxNum)
+                eagleData = jsonDict_to_eagleDict.jsonDict_to_eagleDict(jsonDict, filePath, filePathList)
                 pUserId = jsonDict_to_eagleDict.jsonDict_to_puserId(jsonDict)
                 pUserName = jsonDict_to_eagleDict.jsonDict_to_puserName(jsonDict)
             else:

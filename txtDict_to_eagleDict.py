@@ -53,7 +53,7 @@ def readFile_to_txtDict(filename):
     txt_fo.close()
     return data
 
-def txtDict_to_eagleDict(txtDict, filePath, maxFile=0):
+def txtDict_to_eagleDict(txtDict, filePath, filePathList = [], maxFile=0):
     data = txtDict
     pageUrl = data.get('illust.pageUrl') if data.get('illust.pageUrl') is not None else data.get('path.mangaIndexPage')
     tags = {k: v for k, v in data.items() if any(x in k for x in ['illust.tags'])}.values()
@@ -77,6 +77,12 @@ def txtDict_to_eagleDict(txtDict, filePath, maxFile=0):
     }
 
     maxFile = int(maxFile)
+    if filePathList != []:
+        items = []
+        for theFile in filePathList:
+            items.append({"path": theFile} | baseData)
+        data = {"items": items} | folderData
+        pass
     if maxFile > 0:
         basePath = filePath.rsplit('/', 1)[0]
         items = []
