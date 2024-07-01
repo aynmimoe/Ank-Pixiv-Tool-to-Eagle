@@ -7,7 +7,7 @@ import time
 import requests
 
 eagle_api_url = 'http://localhost:41595'
-eagle_folder_path = '' # 完整Eagle資源資料夾路徑
+# eagle_folder_path = '' # 完整Eagle資源資料夾路徑
 
 if __name__ == "__main__":
     import sys
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     fileCount = 0
     errorFilePath = []
     
-    eagleCopyMetaList = []
+    # eagleCopyMetaList = []
     # 掃描所有檔案
     for root, dirs, files in os.walk(basePath, topdown=False):
         for fileName in files:
@@ -120,14 +120,14 @@ if __name__ == "__main__":
                         theEagleFileFolderPath = os.path.join(eagle_folder_path, 'images',the_addedEagleId+'.info')
                         theEagleFilePath = os.path.join(theEagleFileFolderPath, fileName)
                         # print(filePath)
-                        eagleCopyMetaList.append({'src':filePath, 'dest': theEagleFilePath, 'dest_folder': theEagleFileFolderPath})
+                        # eagleCopyMetaList.append({'src':filePath, 'dest': theEagleFilePath, 'dest_folder': theEagleFileFolderPath})
                         # time.sleep(0.05)
                         # dest = shutil.copy2(filePath, theEagleFilePath)
                     pass
                 elif isinstance(addedEagleId, str):
                     theEagleFileFolderPath = os.path.join(eagle_folder_path, 'images', addedEagleId+'.info')
                     theEagleFilePath = os.path.join(theEagleFileFolderPath, fileName)
-                    eagleCopyMetaList.append({'src':filePath, 'dest': theEagleFilePath, 'dest_folder': theEagleFileFolderPath})
+                    # eagleCopyMetaList.append({'src':filePath, 'dest': theEagleFilePath, 'dest_folder': theEagleFileFolderPath})
                     # time.sleep(0.05)
                     # dest = shutil.copy2(filePath, theEagleFilePath)
                     pass
@@ -151,11 +151,11 @@ if __name__ == "__main__":
     print('Error Files: ==================================')        
     print(errorFilePath)
     
-    # time.sleep(0.1)
-    eagleFileCount = 0
-    for eagleTheCopy in eagleCopyMetaList:
-        time.sleep(0.05)
-        dest = shutil.copy2(eagleTheCopy.get('src'), eagleTheCopy.get('dest'))
-        eagleFileCount = eagleFileCount+1
-        print( '('+str(eagleFileCount)+'): ' +dest)
+    # # time.sleep(0.1)
+    # eagleFileCount = 0
+    # for eagleTheCopy in eagleCopyMetaList:
+    #     time.sleep(0.05)
+    #     dest = shutil.copy2(eagleTheCopy.get('src'), eagleTheCopy.get('dest'))
+    #     eagleFileCount = eagleFileCount+1
+    #     print( '('+str(eagleFileCount)+'): ' +dest)
         
